@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Text
@@ -14,13 +13,14 @@ Imports System.Windows.Navigation
 Imports System.Windows.Shapes
 
 Namespace DXSample.View
-	''' <summary>
-	''' Interaction logic for NextDetailView.xaml
-	''' </summary>
-	Partial Public Class NextDetailView
-		Inherits UserControl
-		Public Sub New()
-			InitializeComponent()
-		End Sub
-	End Class
+    ''' <summary>
+    ''' Interaction logic for NextDetailView.xaml
+    ''' </summary>
+    Partial Public Class NextDetailView
+        Inherits UserControl
+
+        Public Sub New()
+            InitializeComponent()
+        End Sub
+    End Class
 End Namespace
